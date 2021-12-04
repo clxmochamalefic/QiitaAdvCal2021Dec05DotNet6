@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QUICTest", "QUICTest\QUICTest.csproj", "{7AF7DCA5-77DF-4F56-AF87-D3A6058E5C0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurlIM", "CurlIM\CurlIM.csproj", "{3FCEF55D-4206-4750-A414-9E7E86680524}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AF7DCA5-77DF-4F56-AF87-D3A6058E5C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AF7DCA5-77DF-4F56-AF87-D3A6058E5C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AF7DCA5-77DF-4F56-AF87-D3A6058E5C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF7DCA5-77DF-4F56-AF87-D3A6058E5C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FCEF55D-4206-4750-A414-9E7E86680524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FCEF55D-4206-4750-A414-9E7E86680524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FCEF55D-4206-4750-A414-9E7E86680524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FCEF55D-4206-4750-A414-9E7E86680524}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86C46405-7B97-44DA-80E5-2518C60816F4}
+	EndGlobalSection
+EndGlobal
