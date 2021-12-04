@@ -1,7 +1,19 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using Microsoft.AspNetCore.Server.Kestrel.Core;
+
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.WebHost.ConfigureKestrel((context, options) =>
+{
+    options.ListenAnyIP(5001, listenOptions =>
+    {
+        // Use HTTP/3
+        listenOptions.Protocols = HttpProtocols.Http3;
+        listenOptions.UseHttps();
+    });
+});
 
 var app = builder.Build();
 
